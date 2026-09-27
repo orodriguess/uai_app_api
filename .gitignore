@@ -1,0 +1,14 @@
+# Ambiente virtual e cache do Python
+.venv/
+__pycache__/
+*.pyc
+database/
+log/
+*.bak
+
+
+# Gerados em tempo de execução pela API: o banco é recriado a cada
+# inicialização (model/exemplos.py) e os logs são rotativos
+uai_app_api/database/
+uai_app_api/log/
+*.bak
